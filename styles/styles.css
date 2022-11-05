@@ -55,6 +55,7 @@ p {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #2196f3;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .webstudio_header_color {
@@ -63,12 +64,10 @@ p {
 
 .webstudio_header:hover {
   color: #62b8ff;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .webstudio_header:focus {
   color: #62b8ff;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu_nav {
@@ -96,6 +95,7 @@ p {
   position: relative;
   color: #212121;
   padding-bottom: 33px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .text_menu_nav.current::after {
@@ -106,19 +106,16 @@ p {
   display: block;
   width: 100%;
   height: 5px;
-
   border-radius: 4px;
   background-color: #008cff;
 }
 
 .text_menu_nav:hover {
   color: #2196f3;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .text_menu_nav:focus {
   color: #2196f3;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu_contacts {
@@ -144,30 +141,28 @@ p {
   height: 16px;
   margin-right: 10px;
   fill: #757575;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .text_email_tel:hover .email_tel_icon {
   fill: #2196f3;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .text_email_tel:focus .email_tel_icon {
   fill: #2196f3;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .text_email_tel {
   display: flex;
   align-items: center;
   color: #757575;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .text_email_tel:hover {
   color: #2196f3;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .text_email_tel:focus {
   color: #2196f3;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .section_main_hat {
@@ -206,15 +201,14 @@ p {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button:hover {
   background-color: #3fa6fb;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button:focus {
   background-color: #3fa6fb;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button_text {
@@ -547,18 +541,17 @@ p {
   height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .li_clients:hover {
   border: 1px solid #2196f3;
   border-radius: 4px;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .li_clients:focus {
   border: 1px solid #2196f3;
   border-radius: 4px;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .href_clients {
@@ -573,16 +566,15 @@ p {
   width: 106px;
   height: 60px;
   fill: #afb1b8;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .li_clients:hover .icon_clients {
   fill: #2196f3;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .href_clients:focus .icon_clients {
   fill: #2196f3;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer {
@@ -607,6 +599,7 @@ p {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #2196f3;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .webstudio_footer_color {
@@ -615,12 +608,10 @@ p {
 
 .webstudio_footer:hover {
   color: #56abf0;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .webstudio_footer:focus {
   color: #56abf0;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address {
@@ -641,15 +632,14 @@ p {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .map_address:hover {
   color: #2196f3;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .map_address:focus {
   color: #2196f3;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .email_footer {
@@ -658,15 +648,14 @@ p {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .email_footer:hover {
   color: #ffffff;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .email_footer:focus {
   color: #ffffff;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .tel_footer {
@@ -675,15 +664,14 @@ p {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .tel_footer:hover {
   color: #ffffff;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .tel_footer:focus {
   color: #ffffff;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer_navigation {
@@ -723,6 +711,7 @@ p {
   height: 40px;
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social_footer .li_social_footer:not(:last-child) {
@@ -731,12 +720,10 @@ p {
 
 .footer_icon_href:hover {
   background-color: #008cff;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer_icon_href:focus {
   background-color: #008cff;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer_icon_card {
@@ -782,6 +769,7 @@ p {
   color: #212121;
   background: #f5f4fa;
   border-radius: 4px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button_filter:hover {
@@ -789,7 +777,6 @@ p {
   background-color: #2196f3;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button_filter:focus {
@@ -813,12 +800,12 @@ p {
 .project {
   margin: 0;
   margin: 15px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .project:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .img_thumb {
@@ -872,6 +859,8 @@ p {
   margin-top: -5px;
   padding: 24px;
   border: 1px solid #eeeeee;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .project_name {
@@ -881,6 +870,7 @@ p {
   line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
+  width: 100%;
 }
 
 .project_filter {
